@@ -1,0 +1,6 @@
+FCFS (First-Come-First-Served) is a non-preemptive CPU scheduling algorithm. Processes execute strictly in arrival time order and cannot be interrupted mid-execution.
+Disadvantages: Convoy effect occurs when a long job arrives early, making all subsequent short jobs wait for a long time, leading to higher average turnaround time.
+Calculated metrics:
+Finish Time = Time when process fully completes
+Turnaround Time = Finish Time − Arrival Time
+Normalised Turnaround Time = Turnaround Time / Execution Time (fair comparison between long and short processes)

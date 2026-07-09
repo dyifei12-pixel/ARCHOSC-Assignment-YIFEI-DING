@@ -1,0 +1,4 @@
+RR is preemptive, sharing CPU time equally via fixed time quantum (TQ).
+TQ = 1: Tiny time slice, massive context switching overhead. High average turnaround time, best for fast interactive response.
+TQ = 3, 4: Balanced overhead and waiting time; optimal for general-purpose operating systems.
+TQ = 6: Large time slice behaves almost identical to FCFS. Few context switches, poor responsiveness for short quick jobs.

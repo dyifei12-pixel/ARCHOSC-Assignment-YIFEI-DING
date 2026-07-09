@@ -1,0 +1,4 @@
+The long-term scheduler controls which jobs are loaded from disk into main memory ready queue, regulating the degree of multiprogramming.
+Filter rule in this lab: only jobs with priority > 5 are admitted into memory.
+Original pool: A(5), B(4), C(8), D(6), E(10), F(3), G(7).
+Admitted jobs: C, D, E, G. Low-priority A, B, F remain on backing storage and will not be scheduled by CPU short-term scheduler.

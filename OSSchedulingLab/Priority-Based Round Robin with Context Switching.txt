@@ -1,0 +1,4 @@
+Extended RR integrates static priority sorting in the ready list: higher-priority processes are selected first each round.
+TQ=1: High-priority jobs get frequent CPU access, fast response time.
+TQ=6: Large time slice weakens priority difference; low-priority jobs will wait longer.
+Risk: Static priority scheduling may cause starvation for low-priority processes without aging mechanism.

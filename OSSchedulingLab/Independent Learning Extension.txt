@@ -1,0 +1,4 @@
+Shortest Job Next (SJN)
+Non-preemptive algorithm that picks the job with smallest execution burst first. It achieves minimal average turnaround time, but long jobs can suffer indefinite starvation.
+Static Priority Scheduling
+Highest priority job runs to completion without preemption. Widely used in real-time critical systems where urgent tasks must be prioritised.
