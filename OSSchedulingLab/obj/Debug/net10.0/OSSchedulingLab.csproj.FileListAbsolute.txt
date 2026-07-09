@@ -1,0 +1,14 @@
+D:\Workspace\OSSchedulingLab\bin\Debug\net10.0\OSSchedulingLab.exe
+D:\Workspace\OSSchedulingLab\bin\Debug\net10.0\OSSchedulingLab.deps.json
+D:\Workspace\OSSchedulingLab\bin\Debug\net10.0\OSSchedulingLab.runtimeconfig.json
+D:\Workspace\OSSchedulingLab\bin\Debug\net10.0\OSSchedulingLab.dll
+D:\Workspace\OSSchedulingLab\bin\Debug\net10.0\OSSchedulingLab.pdb
+D:\Workspace\OSSchedulingLab\obj\Debug\net10.0\OSSchedulingLab.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\OSSchedulingLab\obj\Debug\net10.0\OSSchedulingLab.AssemblyInfoInputs.cache
+D:\Workspace\OSSchedulingLab\obj\Debug\net10.0\OSSchedulingLab.AssemblyInfo.cs
+D:\Workspace\OSSchedulingLab\obj\Debug\net10.0\OSSchedulingLab.csproj.CoreCompileInputs.cache
+D:\Workspace\OSSchedulingLab\obj\Debug\net10.0\OSSchedulingLab.dll
+D:\Workspace\OSSchedulingLab\obj\Debug\net10.0\refint\OSSchedulingLab.dll
+D:\Workspace\OSSchedulingLab\obj\Debug\net10.0\OSSchedulingLab.pdb
+D:\Workspace\OSSchedulingLab\obj\Debug\net10.0\OSSchedulingLab.genruntimeconfig.cache
+D:\Workspace\OSSchedulingLab\obj\Debug\net10.0\ref\OSSchedulingLab.dll
