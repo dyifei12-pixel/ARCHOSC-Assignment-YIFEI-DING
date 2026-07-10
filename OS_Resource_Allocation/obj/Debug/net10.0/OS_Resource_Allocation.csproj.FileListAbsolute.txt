@@ -1,0 +1,14 @@
+D:\Workspace\OS_Resource_Allocation\bin\Debug\net10.0\OS_Resource_Allocation.exe
+D:\Workspace\OS_Resource_Allocation\bin\Debug\net10.0\OS_Resource_Allocation.deps.json
+D:\Workspace\OS_Resource_Allocation\bin\Debug\net10.0\OS_Resource_Allocation.runtimeconfig.json
+D:\Workspace\OS_Resource_Allocation\bin\Debug\net10.0\OS_Resource_Allocation.dll
+D:\Workspace\OS_Resource_Allocation\bin\Debug\net10.0\OS_Resource_Allocation.pdb
+D:\Workspace\OS_Resource_Allocation\obj\Debug\net10.0\OS_Resource_Allocation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\OS_Resource_Allocation\obj\Debug\net10.0\OS_Resource_Allocation.AssemblyInfoInputs.cache
+D:\Workspace\OS_Resource_Allocation\obj\Debug\net10.0\OS_Resource_Allocation.AssemblyInfo.cs
+D:\Workspace\OS_Resource_Allocation\obj\Debug\net10.0\OS_Resource_Allocation.csproj.CoreCompileInputs.cache
+D:\Workspace\OS_Resource_Allocation\obj\Debug\net10.0\OS_Resource_Allocation.dll
+D:\Workspace\OS_Resource_Allocation\obj\Debug\net10.0\refint\OS_Resource_Allocation.dll
+D:\Workspace\OS_Resource_Allocation\obj\Debug\net10.0\OS_Resource_Allocation.pdb
+D:\Workspace\OS_Resource_Allocation\obj\Debug\net10.0\OS_Resource_Allocation.genruntimeconfig.cache
+D:\Workspace\OS_Resource_Allocation\obj\Debug\net10.0\ref\OS_Resource_Allocation.dll

@@ -1,0 +1,44 @@
+Predefined Fixed Data
+Total processes: P1, P2, P3, P4, P5
+Resource types: R1, R2, R3
+Maximum demand matrix (Max) for each process:
+Process	Max R1	Max R2	Max R3
+P1	7	5	4
+P2	3	2	2
+P3	9	0	2
+P4	2	2	2
+P5	4	4	4
+Baseline allocation rule used in this lab: Allocation = Max demand.
+Therefore, the remaining resource need of every process:
+Need=Max−Allocation=[0,0,0]
+All processes have obtained all resources they require to finish execution.
+Task 1: Initial available resources = [10, 5, 7]
+Step 1 Calculate Need matrix
+For all five processes, Need = [0, 0, 0]. No extra resources are required for any process to complete.
+Step 2 Safe sequence judgement
+Since every process has zero remaining resource demand, any execution order is a valid safe sequence.
+One example valid safe sequence:
+P1→P2→P3→P4→P5
+Step 3 Conclusion
+The system is in a safe state. There is no risk of deadlock. All processes can terminate at any time and release their occupied resources back to the available resource pool.
+Task 2: R1 resource increased to 12, available = [12, 5, 7]
+Step 1 Matrix comparison
+Max matrix, Allocation matrix and Need matrix remain unchanged. All processes still have Need = [0,0,0]. The total free R1 resource only increases, which does not affect the resource demand of running processes.
+Step 2 Safe sequence
+Any execution order is valid. Example safe sequence:
+P4→P2→P5→P1→P3
+Step 3 Conclusion
+The system remains safe. Extra free R1 resources only add more idle system resources, and do not change the ability of all processes to finish immediately. No deadlock risk exists.
+Task 3: Further increase R2 resource, available = [12, 7, 7]
+Step 1 Matrix comparison
+Max, Allocation and Need matrices are identical to previous tasks. All processes still hold all required resources with zero remaining demand.
+Step 2 Safe sequence
+Valid safe execution sequence:
+P2→P4→P5→P1→P3
+Step 3 Reflection on the impact of adding more resources
+Extra available resources cannot convert an unsafe state into a safe state if processes still have unsatisfied resource needs. However, larger resource pools can accept more new resource requests from newly arrived processes without entering an unsafe state.
+In this specific scenario, all processes already hold all required resources. Increasing available resources only creates more unused idle hardware resources and has no influence on the safe execution sequence.
+More free resources improve system concurrency and flexibility for new processes, but excessive unused resources lead to low hardware utilisation. Operating systems must balance resource utilisation and deadlock avoidance when managing resource pools.
+When the system has a large amount of free resources, the probability of resource competition and circular waiting between processes decreases, which reduces the possibility of deadlock formation.
+Step 4 Conclusion
+The system is still safe after expanding R2 resources. The additional free resources only increase system resource redundancy without altering the completion logic of existing processes.
