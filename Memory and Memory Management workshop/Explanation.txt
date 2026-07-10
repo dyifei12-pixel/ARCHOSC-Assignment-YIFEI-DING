@@ -1,0 +1,22 @@
+Full C# TLB Simulation Code (Program.cs)
+Explanation
+This single-file C# program implements a complete TLB simulator as required by Task 4.1.
+A TLBEntry class stores the mapping between Virtual Page Number (VPN) and Physical Page Number (PPN).
+A TLB class manages the cache with a fixed capacity of 4 entries and FIFO replacement strategy:
+Lookup(): Searches the TLB for a given VPN; increments hit counter if found, miss counter if not.
+Insert(): Adds new VPN-PPN pairs. When the TLB is full, the oldest entry is removed first to free space.
+GetHitRate(): Calculates the percentage of TLB hits out of all memory accesses.
+In the Main method, I define a sequence of virtual page accesses and a simple page table to provide valid PPN values for missing VPNs. The program iterates each access, prints hit/miss status, and outputs final statistics at the end.
+Console running output of the TLB simulation
+Explanation
+This screenshot shows the runtime execution result of the TLB simulator with the access sequence {0, 1, 3, 0, 5, 1, 7, 3, 0, 2}.
+Each line labels whether the current VPN access is a TLB Hit or TLB Miss.
+For misses, the system fetches the corresponding PPN from the page table and inserts the new mapping into the TLB cache.
+For hits, the cached PPN is retrieved directly without accessing the page table in main memory.
+Final statistics display total accesses, hit count, miss count and overall hit rate (30.00% in this test run).
+Key Behaviour Explanation for the Output
+The TLB only holds 4 entries and uses FIFO eviction:
+VPN 0 is loaded into TLB at step 1, but evicted when VPN 5 is inserted at step 5.
+When VPN 0 is accessed again at the 9th operation, it causes another TLB miss because its entry was removed earlier.
+Frequent evictions of reused VPNs lead to a low hit rate of 30%, which demonstrates the weakness of small TLB sizes and FIFO replacement for workloads with repeated page accesses.
+I developed a C# TLB simulator to model address translation cache behaviour. The code tracks TLB hits and misses, applies FIFO replacement when the cache reaches its 4-entry limit, and computes the final hit rate. The console output screenshot records the full access trace and performance metrics, illustrating how repeated evictions reduce cache efficiency for this specific virtual memory access sequence.
