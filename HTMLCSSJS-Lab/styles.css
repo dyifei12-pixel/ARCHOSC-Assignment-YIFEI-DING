@@ -1,0 +1,44 @@
+
+body {
+    background: white;
+    color: #111;
+    transition: 0.3s all;
+}
+h1 {
+    color: orangered;
+}
+.name {
+    color: green;
+}
+.description {
+    color: pink;
+}
+nav {
+    margin-bottom: 2rem;
+}
+nav a {
+    margin-right: 12px;
+}
+
+
+body.dark {
+    background: #121212;
+    color: #f0f0f0;
+}
+
+body.dark h1 {
+    color: #ff7043;
+}
+body.dark .name {
+    color: #69f0ae;
+}
+body.dark .description {
+    color: #ff80bb;
+}
+
+body.dark nav {
+    background: #222;
+}
+body.dark nav a {
+    color: white;
+}
